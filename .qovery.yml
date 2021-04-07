@@ -1,0 +1,15 @@
+---
+application:
+  name: "restful-api-php"
+  project: "test"
+  organization: "QoveryCommunity"
+databases:
+- type: "POSTGRESQL"
+  name: "mydb"
+  version: "12"
+routers:
+- name: "main-restful-api-php"
+  routes:
+  - application_name: "restful-api-php"
+    paths:
+    - "/*"
